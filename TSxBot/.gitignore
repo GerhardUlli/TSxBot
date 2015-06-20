@@ -1,0 +1,6 @@
+/log/
+/.settings/
+**/bin/
+
+/build/release/**
+/build/api/**

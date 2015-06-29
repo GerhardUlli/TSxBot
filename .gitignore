@@ -5,3 +5,4 @@
 /plugins/**/*.jar
 /build/release/**
 /build/api/**
+/plugins/**

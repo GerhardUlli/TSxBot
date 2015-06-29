@@ -62,6 +62,7 @@ final class PluginContainer {
 
 	@SuppressWarnings("unchecked")
 	// TODO Checking type safety of the cast from Class<capture#3-of ?> to Class<? extends Plugin>
+	//This should be inside PluginLoader
 	protected void loadPluginClass(final URLClassLoader loader) {
 		log.finest("Try to load " + this.entryMethod);
 		try {

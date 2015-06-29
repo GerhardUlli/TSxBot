@@ -1,6 +1,7 @@
 /log/
 /.settings/
 **/bin/
-
+*.class
+/plugins/**/*.jar
 /build/release/**
 /build/api/**

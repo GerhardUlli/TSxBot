@@ -2,6 +2,6 @@
 /.settings/
 **/bin/
 *.class
-#/plugins/**/*.jar
+/plugins/**/*.jar
 /build/release/**
 /build/api/**

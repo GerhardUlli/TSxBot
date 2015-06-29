@@ -6,5 +6,6 @@ The subfolder TSxBot/TSxBot is an eclipse-project developed with Eclipse Luna 4.
 
 # Creators
 Jochen Schupp (CCO)
+
 Ulli Michael Gerhard (CTO)
 

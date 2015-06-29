@@ -44,7 +44,7 @@ public class RecyclingPool<K> implements ReclaimableCollection<K>, SystemObject 
 
 	private static final int MAX_RESERVES = 50;		//The maximum Count of Objects marked reclaimable,
 													//Any additional Objects to reclaim are removed
-	
+
 	public RecyclingPool(Class<? extends Reclaimable> pooledClazz) {
 		clazz = pooledClazz;
 		slotMap = new ConcurrentHashMap<>();
@@ -82,7 +82,7 @@ public class RecyclingPool<K> implements ReclaimableCollection<K>, SystemObject 
 	
 	@SuppressWarnings({ "unchecked", "rawtypes" })
 	@Override
-	public <T extends Reclaimable> Collection<T> getContentAsCollection() { 
+	public <T extends Reclaimable> Collection<T> getContentAsCollection() {
 		//Überdenken :
 		/*
 		 * Es könnte sein, das zwischen dem erzeugen von contentAsList ein eintrag entfernt und wieder hinzugefügt wird -> d.h

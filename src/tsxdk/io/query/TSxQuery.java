@@ -23,7 +23,7 @@ public class TSxQuery implements Reclaimable, AbstractQuery, AbstractPreparableQ
 	private static final TsPipe pipe = TsPipe.getSharedInstance(); 
 	private static final Long LIFETIME = Period.QUERY_LIFETIME.getValue();			//The minimum time between sending 2 querys of this kind
 
-	private String content;					//the contents for this Query to Ts - default visibility!
+	private String content;					//the contents for this Query to Ts
 	private String fmtString;
 	private TsEntityType expectedResult;	//The kind of result this query expects
 	private long timestamp;
